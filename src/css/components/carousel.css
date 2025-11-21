@@ -13,7 +13,10 @@ https://developer.mozilla.org/fr/docs/Web/CSS/overflow-x
 La propriété "scroll-snap-type" définit la force d'adhérence aux points d'accroche en cas de défilement d'un conteneur
 https://developer.mozilla.org/fr/docs/Web/CSS/scroll-snap-type
 
-Les margin négatifs à gauche et à droite corresponde à l'éespace entre le navigateur et le début du contenu, de sorte que le carousel soit collé au bords de l'écran.
+Les margin négatifs à gauche et à droite corresponde à l'éspace entre le navigateur et le début du contenu, de sorte que le carousel soit collé au bords de l'écran.*/
+
+scroll-snap-type: none;
+
 
 */
 
