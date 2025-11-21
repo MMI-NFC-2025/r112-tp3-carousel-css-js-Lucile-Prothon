@@ -3,6 +3,7 @@
 img {
   max-width: 100%;
   height: auto;
+  background-size: contain; 
 }
 
 /* Mise en forme du carousel en CSS.
@@ -11,7 +12,7 @@ La propriété "overflow-x" avec la valeur "scroll" permet rogner le contenu afi
 https://developer.mozilla.org/fr/docs/Web/CSS/overflow-x*/
 
 /*La propriété "scroll-snap-type" définit la force d'adhérence aux points d'accroche en cas de défilement d'un conteneur
-https://developer.mozilla.org/fr/docs/Web/CSS/scroll-snap-type
+https://developer.mozilla.org/fr/docs/Web/CSS/scroll-snap-type */
 
 /*Les margin négatifs à gauche et à droite corresponde à l'éspace entre le navigateur et le début du contenu, de sorte que le carousel soit collé au bords de l'écran.*/
 
@@ -88,3 +89,5 @@ https://developer.mozilla.org/fr/docs/Web/CSS/scroll-snap-type
   display: block;
 
 }
+
+
