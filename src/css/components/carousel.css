@@ -30,6 +30,8 @@ https://developer.mozilla.org/fr/docs/Web/CSS/scroll-snap-type */
   align-items: center;
   justify-content: center;
   margin: 16px 0; 
+ 
+  
 
 }
 .carousel__button {
@@ -48,13 +50,13 @@ https://developer.mozilla.org/fr/docs/Web/CSS/scroll-snap-type */
   justify-content: center;
   border: 1px solid #9f0a0a;
   border-radius: 50%; 
+  position: absolute center;
 
 }
 .carousel__button--prev {
   /* Fait pivoter le bouton de 180 degrés - https://developer.mozilla.org/fr/docs/Web/CSS/transform */
 
   transform: rotate(180deg);
-
 }
 
 .carousel__container {
@@ -71,6 +73,8 @@ https://developer.mozilla.org/fr/docs/Web/CSS/scroll-snap-type */
   margin-left: -24px; 
   margin-right: -24px;
   scroll-snap-type: x mandatory;
+
+  
 
 }
 
